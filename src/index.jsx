@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import css from './style/style.css';
 import axios from 'axios';
+import TableMacros from './TableMacros.jsx';
 
 class App extends React.Component {
     constructor(props) {
@@ -43,29 +44,8 @@ class App extends React.Component {
                        <span className="scroll"/>
                        <span className="scroll-text">Scroll</span>
                    </div>
-
-                   <table cellSpacing="0">
-                        <thead>
-                            <tr>
-                                <th>Nome</th>
-                                <th>Quantidade</th>
-                                <th>Proteínas</th>
-                                <th>Carboidratos</th>                            
-                                <th>Gorduras</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            {this.state.alimentos.map(alimento => {
-                                return <tr key={alimento}>
-                                            <td>{alimento[0]}</td>
-                                            <td>{alimento[1]}</td>
-                                            <td>{alimento[2]}</td>
-                                            <td>{alimento[3]}</td>                            
-                                            <td>{alimento[4]}</td>
-                                        </tr>
-                            })}
-                        </tbody>
-                   </table>    
+                   
+                   <TableMacros alimentos={this.state.alimentos}/>
                </div>
             </div>
         );

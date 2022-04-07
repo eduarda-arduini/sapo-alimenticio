@@ -17,7 +17,7 @@ class App extends React.Component {
         })            
     }
 
-    clanTable = () => {
+    cleanTable = () => {
         this.setState({alimentos: []})            
     }
 

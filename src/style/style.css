@@ -1,0 +1,110 @@
+.frog {
+    background-image: url('../images/frog.png');
+    width: 10vh;
+    height: 10vh;
+    background-repeat: no-repeat;
+    margin-left: 7vw;
+    float: left;
+    background-size: 100% 100%;
+}
+
+.header {
+    background-color: #8190A5;
+    border-radius: 5px;
+    height: 10vh;
+}
+
+.text-header{
+    color: #FFFFFF;
+    font-family: Lato;
+    font-size: 26px;
+    cursor: pointer;
+    line-height: 33px;
+    text-align: left;
+}
+
+.home-header {
+    border-left: 3px solid #FFF;
+    height: 0vh;
+    padding: 2vh 2vw 5vh 3vw;
+    float: left;
+    margin-top: 1vh;
+    margin-left: 3vw;
+}
+
+.header-macro{
+    display: flex;
+    width: 34vw;
+    float: right;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 5vw;
+}
+
+.text {
+    color: #47525E;
+    font-family: Lato;
+    font-size: 48px;
+    line-height: 62px;
+    text-align: center;
+    display: flex;
+    padding: 3vh 14vw 3vh;
+}
+
+
+.page {
+    background-color: #E5E9F2;
+    padding-bottom: 3vh;
+}
+
+body {
+    background-color: #E5E9F2;
+}
+
+.scroll {
+    background-image: url('../images/scroll.png');
+    width: 7vh;
+    height: 7vh;
+    background-repeat: no-repeat;
+    float: left;
+    background-size: 100% 100%;
+}
+
+.scroll-text{
+    color: #8492A6;
+    font-family: Lato;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: left;
+}
+
+.box-scroll {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table th {
+  background-color: #EFF2F7;
+  padding: 3vh 6vw;
+}
+
+table td {
+    background-color: #EFF2F7;
+    border: 1px solid #C0CCDA;
+    height: 70px;
+    text-align: center;
+}
+
+table {    
+  margin: 7vh auto 0;
+  border: 1px solid #C0CCDA;
+}
+
+.text-body{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 5vh auto;
+}
